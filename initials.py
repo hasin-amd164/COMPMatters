@@ -29,6 +29,51 @@ t.reset()
 # the turtle goes back to the initial state for the next initials to state
 # (the pencolor and pensize are also reset).
 # draw your initials with a different pensize and pencolor
+t.pencolor('green')
+t.pensize(3)
+t.left(90)
+t.down()
+t.forward(80)
+t.left(180)
+t.up()
+t.forward(80)
+t.left(150)
+t.down()
+t.forward(55)
+t.right(120)
+t.down()
+t.forward(55)
+t.left(150)
+t.down()
+t.forward(80)
+t.right(180)
+t.up()
+t.forward(80)
+t.left(90)
+t.up()
+t.forward(10)
+t.down()
+t.forward(1)
+t.up()
+t.forward(10)
+t.left(90)
+t.down()
+t.forward(80)
+t.right(90)
+t.down()
+t.forward(40)
+t.left(180)
+t.up()
+t.forward(40)
+t.left(90)
+t.up()
+t.forward(80)
+t.left(90)
+t.down()
+t.forward(45)
+
+
+t.reset()
 
 t.pencolor('magenta')
 t.pensize(5)
@@ -81,7 +126,9 @@ t.left (90)
 t.up
 t.forward (85)
 
-t.reset
+
+
+t.reset()
 
 
 
