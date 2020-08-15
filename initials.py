@@ -30,15 +30,43 @@ t.reset()
 # (the pencolor and pensize are also reset).
 # draw your initials with a different pensize and pencolor
 
+t.pensize(2)
+t.pencolor("red")
+t.speed(2)
+
+t.left(60)
+t.forward(100)
+t.right(120)
+t.forward(100)
+t.left(150)
+t.up()
+t.forward(50)
+t.left(90)
+t.down()
+t.forward(100)
+t.up()
+t.right(180)
+t.forward(125)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.down()
+t.forward(100)
+t.up()
+t.right(180)
+t.forward(50)
+t.right(90)
+t.down()
+t.forward(86.6)
+t.up()
+t.right(90)
+t.forward(50)
+t.right(180)
+t.down()
+t.forward(100)
 
 
-
-
-
-
-
-
-
+t.reset()
 
 # leave the input() function at the bottom of the code
 input('hit enter to exit')
