@@ -201,6 +201,7 @@ t.forward(70)
 
 t.reset()
 
+t.pencolor('blue')
 t.left(90)
 t.down()
 t.forward(100)
