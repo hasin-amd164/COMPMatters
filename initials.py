@@ -31,7 +31,7 @@ t.reset()
 # draw your initials with a different pensize and pencolor
 
 t.pensize(2)
-t.pencolor("red")
+t.pencolor("blue")
 t.speed(2)
 
 t.left(60)
