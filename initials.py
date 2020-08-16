@@ -487,5 +487,54 @@ t.reset()
 input('hit enter to exit')
 
 
+# initials program 
+import turtle
+
+t = turtle.Turtle()
+
+t.pencolor('green')
+t.pensize(3)
+
+# Add your commands below
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.right(90)
+t.forward(50)
+t.right(45)
+t.forward(50)
+t.right(45)
+t.forward(69)
+t.pencolor('blue')
+t.up()
+t.forward(50)
+t.down()
+t.forward(100)
+t.right(60)
+t.forward(50)
+t.right(30)
+t.up()
+t.forward(61)
+t.down()
+t.forward(80)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(150)
+t.right(45)
+t.forward(50)
+t.up()
+
+
+
+t.reset()
+# this input waits for you to hi enter. The turtle window will remain
+# open until you do so. Without this, the turtle window would close
+# too quickly to see anything
+
+input('hit enter to end program')
+
 
 
