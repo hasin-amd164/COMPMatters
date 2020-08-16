@@ -201,6 +201,34 @@ t.forward(70)
 
 t.reset()
 
+t.pencolor('blue')
+t.pensize(5)
+t.left(50)
+t.pendown
+t.pensize(5)
+t.forward(100) 
+t.right(100)
+t.forward(100) 
+t.left(180) 
+t.forward(50)
+t.left(50)
+t.forward(60)
+t.right(180)
+t.forward(60)
+t.right(50)
+t.forward(50)
+t.left(50)
+t.forward(25)
+t.left(90)
+t.forward(100)
+t.right(145)
+t.forward(113)
+t.left(145)
+t.forward(100) 
+t.penup()
+
+t.reset()
+
 # leave the input() function at the bottom of the code
 input('hit enter to exit')
 
