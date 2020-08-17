@@ -90,6 +90,8 @@ t.left(90)
 t.down()
 t.forward(45)
 
+t.reset()
+
 
 t.pencolor('magenta')
 t.pensize(5)
@@ -211,6 +213,9 @@ t.right(30)
 t.forward(20)
 t.right(45)
 t.forward(40)
+
+t.reset()
+
 
 t.pencolor('purple')
 t.pensize(3)
@@ -569,15 +574,6 @@ t.forward(100)
 t.penup()
 
 t.reset()
-
-# leave the input() function at the bottom of the code
-input('hit enter to exit')
-
-
-# initials program
-import turtle
-
-t = turtle.Turtle()
 
 t.pencolor('green')
 t.pensize(3)
