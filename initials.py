@@ -25,7 +25,7 @@ t.forward(200)
 t.reset()
 
 
-# add your initials below and then call t.reset(), like above, so that 
+# add your initials below and then call t.reset(), like above, so that
 # the turtle goes back to the initial state for the next initials to state
 # (the pencolor and pensize are also reset).
 # draw your initials with a different pensize and pencolor
@@ -546,7 +546,7 @@ t.reset()
 input('hit enter to exit')
 
 
-# initials program 
+# initials program
 import turtle
 
 t = turtle.Turtle()
@@ -586,12 +586,37 @@ t.right(45)
 t.forward(50)
 t.up()
 
+t.reset()
 
+t.pencolor('Grey')
+t.pensize(3)
+
+t.down()
+t.left(90)
+t.forward(150)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.left(135)
+t.forward(140)
+t.left(45)
+t.up()
+t.forward(50)
+t.down()
+t.left(90)
+t.forward(150)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.up()
 
 t.reset()
-# this input waits for you to hi enter. The turtle window will remain
-# open until you do so. Without this, the turtle window would close
-# too quickly to see anything
 
 input('hit enter to end program')
 
